@@ -1,60 +1,106 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>আমার ওয়েবসাইট</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            margin: 0;
-            padding: 20px;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 20px;
-            width: 100%;
-            max-width: 400px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            text-align: center;
-        }
-        h1 { 
-            color: #333; 
-            margin-bottom: 30px; 
-        }
-        .btn {
-            display: block;
-            width: 100%;
-            padding: 18px;
-            margin: 12px 0;
-            background: #667eea;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            border-radius: 12px;
-            text-decoration: none;
-        }
-        .btn:hover { 
-            background: #5a6fd8; 
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg,#4facfe,#00f2fe);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+
+    .container{
+      width:90%;
+      max-width:350px;
+      background:white;
+      padding:25px;
+      border-radius:20px;
+      text-align:center;
+      box-shadow:0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1{
+      margin-bottom:20px;
+      color:#333;
+    }
+
+    .btn{
+      display:block;
+      width:100%;
+      padding:15px;
+      margin:12px 0;
+      border:none;
+      border-radius:12px;
+      background:#007bff;
+      color:white;
+      font-size:18px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#0056b3;
+      transform:scale(1.03);
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>আমার প্রথম ওয়েবসাইট</h1>
-        
-        <script src="https://pl29440940.profitablecpmratenetwork.com/13/dc/ae/13dcaeb38f67d18b1e531a5e5eb7f852.js"></script>
-        <a href="https://youtube.com" class="btn">২. ইউটিউব খুলুন</a>
-        <a href="https://facebook.com" class="btn">৩. ফেসবুক খুলুন</a>
-        <a href="https://www.bangladesh.gov.bd/" class="btn">৪. বাংলাদেশ গভর্নমেন্ট</a>
-        <a href="#" class="btn">৫. আরেকটা লিংক</a>
-    </div>
+
+<div class="container">
+  <h1>আমার ওয়েবসাইট</h1>
+
+  <!-- Button 1 -->
+  <button class="btn" onclick="loadAd1()">
+    Button 1
+  </button>
+
+  <!-- Button 2 -->
+  <button class="btn" onclick="loadAd2()">
+    Button 2
+  </button>
+
+  <!-- Button 3 -->
+  <button class="btn"
+  onclick="window.location.href='https://www.profitablecpmratenetwork.com/d2sf620192?key=8dd05b08600f23e56e079a1472c6c069'">
+    Button 3
+  </button>
+
+  <!-- Button 4 -->
+  <button class="btn"
+  onclick="window.location.href='https://google.com'">
+    Button 4
+  </button>
+
+  <!-- Button 5 -->
+  <button class="btn"
+  onclick="window.location.href='https://youtube.com'">
+    Button 5
+  </button>
+
+</div>
+
+<script>
+  function loadAd1() {
+    var s = document.createElement("script");
+    s.src = "https://pl29440940.profitablecpmratenetwork.com/13/dc/ae/13dcaeb38f67d18b1e531a5e5eb7f852.js";
+    document.body.appendChild(s);
+  }
+
+  function loadAd2() {
+    var s = document.createElement("script");
+    s.src = "https://pl29440939.profitablecpmratenetwork.com/de/3f/64/de3f64f263ce8560496ec509f6c6fd3d.js";
+    document.body.appendChild(s);
+  }
+</script>
+
 </body>
 </html>
